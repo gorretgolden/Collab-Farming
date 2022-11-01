@@ -1,0 +1,87 @@
+.login-page {
+
+    .border-right-0 {
+        border-right: 0px;
+    }
+
+    .input-group-text {
+        background-color: white;
+        color: #B2B2B2;
+    }
+
+    .left-side {
+        position: relative;
+        height: 100vh;
+        //background-color: #389785;
+
+        background-image: url(/images/tray.2.png);
+        background-position: center;
+        background-size: cover;
+
+        .sign-up {
+            padding: 10px 45px;
+            border-color: whitesmoke;
+            background: #80c4bb;
+        }
+
+        #info-view {
+            width: 530px;
+            position: absolute;
+            margin: auto;
+            top: 180px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            color: white;
+
+            padding-left: 45px;
+        }
+    }
+
+    .right-side {
+        position: relative;
+
+        a {
+            color: #B2B2B2;
+            text-decoration: none;
+        }
+
+        .login-btn {
+            width: 100%;
+            padding: 10px 30px;
+            background: #006f5c;
+            border-color: #006f5c;
+        }
+
+        .form-wrapper {
+            position: absolute;
+            margin: auto;
+            top: 140px;
+            left: 0;
+            right: 0;
+            bottom: 0;
+
+            input {
+                padding-top: 0.75rem !important;
+                padding-bottom: 0.75rem !important;
+            }
+        }
+    }
+}
+
+.login-container{
+    width: 40%;
+    position: fixed;
+    top: 10%;
+    left: 30%;
+    right: 40%;
+    background-color: white;
+    bottom: 10%;
+    border: 5px solid white;
+    z-index: 99;
+    height: 70%;
+    border-radius: 6px;
+    box-shadow: 1px 1px #888888;
+
+}

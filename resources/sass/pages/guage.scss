@@ -1,0 +1,43 @@
+.gauge-container {
+    width: 205px;
+    height: 200px;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+.gauge-container > .gauge .dial {
+    stroke: #eee;
+    stroke-width: 4;
+    fill: rgba(0,0,0,0);
+}
+.gauge-container > .gauge .value {
+    stroke: rgb(47, 227, 255);
+    stroke-width: 5;
+    fill: rgba(0,0,0,0);
+}
+.gauge-container > .gauge .value-text {
+    fill: rgb(47, 227, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 5em;
+}
+
+.gauge-wrapper {
+   position: relative;
+    .other-label {
+        width: 100%;
+        height: 205px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        position: absolute;
+
+
+        .text-center {
+            display: block;
+            position: relative;
+            text-align: center;
+        }
+    }
+}
